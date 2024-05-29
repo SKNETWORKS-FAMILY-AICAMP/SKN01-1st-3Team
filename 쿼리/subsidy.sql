@@ -1,0 +1,11 @@
+CREATE TABLE `subsidy` (
+	`id` INT(10) NOT NULL AUTO_INCREMENT,
+	`지역` VARCHAR(50) NULL DEFAULT NULL COLLATE 'utf8mb4_general_ci',
+	`전기차` VARCHAR(50) NULL DEFAULT NULL COLLATE 'utf8mb4_general_ci',
+	`수소차` VARCHAR(100) NULL DEFAULT NULL COLLATE 'utf8mb4_general_ci',
+	PRIMARY KEY (`id`) USING BTREE
+)
+COLLATE='utf8mb4_general_ci'
+ENGINE=InnoDB
+AUTO_INCREMENT=65
+;
